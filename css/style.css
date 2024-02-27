@@ -41,7 +41,11 @@ body {
 }
 
 .education {
-    padding-top: 70px;
+    padding-top: 0px;
+}
+
+.text {
+    text-align: justify;
 }
 
 h1 {
