@@ -11,7 +11,7 @@
         }
     
         body {
-            font-family: 'Ubuntu', serif;
+            font-family: "Arial", serif;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
@@ -41,14 +41,14 @@
         }
     
         h2 {
-            font-size: 18px;
+            font-size: 16px;
             margin: 15px 0px 0 0px;
         }
     
         .section p,
         .section ul {
             font-size: 14px;
-            margin: 14px 0 0 0;
+            margin: 12px 0 0 0;
         }
     
         .job-title {
@@ -57,7 +57,7 @@
     
         .company-location {
             font-size: 14px;
-            margin: 5px 0 5px;
+            margin: 0px 0 0px;
         }
     
         .date-range {
@@ -69,7 +69,7 @@
         }
     
         li {
-            margin-bottom: 5px;
+            margin-bottom: 0px;
             padding-left: 15px;
         }
     
@@ -85,7 +85,7 @@
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 5px 20px;
+            gap: 5px 15px;
             font-size: 14px;
         }
         .name-link {
@@ -141,55 +141,37 @@
         <h2>Summary</h2>
         <div class="section-line"></div>
         <p>
-            Backend developer focused on building scalable services using FastAPI, SQLAlchemy, and Docker. Specialized in
-            asynchronous programming, API architecture, and implementing clean code following DDD principles. Driven to deliver
-            technically robust solutions that effectively support complex business logic.
+            I'm a backend developer who enjoys turning complex ideas into working backend systems. I mostly work with 
+            Python, FastAPI, SQLAlchemy, and Docker to build APIs that are fast, clean, and easy to maintain. I care a lot 
+            about writing good async code, using DDD when it makes sense, and keeping things simple but solid. My focus is 
+            always on building solutions that support real business needs and scale well as the product grows.
         </p>
     </div>
 
     <div class="section">
-        <h2>Education</h2>
+        <h2>Professional Experience</h2>
         <div class="section-line"></div>
-        <p><strong>IT School "GoIT"<span class="date-range">Feb 2023 - Feb 2024</span></strong><br>
-            Python Developer | <a href="https://revuka-oleksandr-resume.netlify.app/images/Certificate_GoIT.pdf"
-                target="_blank">Certificate GoIT</a><br>
-        </p>
-        <p><strong>IT Education Academy "ITEA"<span class="date-range">Sep 2022 - Jan 2023</span></strong><br>
-            Python Developer | <a href="https://revuka-oleksandr-resume.netlify.app/images/Certificate_ITEA.pdf"
-                target="_blank">Certificate ITEA</a><br>
-        </p>
-        <p><strong>National Technical University of Ukraine "Igor Sikorsky Kyiv
-        Polytechnic Institute"<span class="date-range">Sep 2002 - June 2008</span></strong><br>
-            Aviation and cosmonautics Design engineer<br>
-        </p>
-    </div>
 
-    <div class="section">
-        <h2>Skills</h2>
-        <div class="section-line"></div>
+        <p class="job-title">Python Developer / Team Lead <span class="date-range">April 2024 — Present</span></p>
+        <div class="company-location">Platform17 (volunteer-based), Ukraine</div>
+        <ul>
+            <li>Designed the core architecture of the backend system using modular services, DDD principles, and clear API boundaries;</li>
+            <li>Added Unit of Work to centralize DB logic and reduce duplicated code;</li>
+            <li>Applied DDD to separate business logic and make code more modular and easier to test;</li>
+            <li>Used CQRS to split read/write logic and speed up some API parts;</li>
+            <li>Achieved over 90% backend test coverage with Pytest, focusing on service and domain layers;</li>
+            <li>Designed features for booking, subscriptions, scheduling, and user roles;</li>
+            <li>Led a small backend team, setting development priorities, reviewing PRs, and mentoring junior developers;</li>
+            <li>Communicated directly with stakeholders to align technical solutions with user needs and product goals.</li>
+        </ul>
         
-        <div class="skills-grid">
-            <ul>
-                <li>Python</li>
-                <li>FastAPI / Django</li>
-                <li>SQLAlchemy / Pydantic</li>
-            </ul>
+        <p class="job-title">Design Engineer / Hardware Specialist <span class="date-range">Jan 2020 — Apr 2022</span></p>
+        <div class="company-location">LLC "Aquavital", LLC "SEA Elektrotekhnika", Freelance, Ukraine</div>
+        <ul>
+            <li>Created technical documentation, working drawings, and visual project presentations for infrastructure and electronics;</li>
+            <li>Handled hardware planning, installation, OS configuration, and system support for industrial and mining setups.</li>
+        </ul>
 
-            <ul>
-                <li>PostgreSQL / Redis</li>
-                <li>Docker / Docker Compose</li>
-                <li>Git / GitHub</li>
-                <li>Unit & Integration Testing</li>
-            </ul>
-
-            <ul>
-                <li>Linux</li>
-                <li>RESTful API design</li>
-                <li>AsyncIO / Aiohttp</li>
-                <li>DDD / CQRS</li>
-            </ul>
-
-        </div>
     </div>
 
     <div class="section">
@@ -220,26 +202,53 @@
     </div>
 
     <div class="section">
-        <h2>Professional Experience</h2>
+        <h2>Skills</h2>
         <div class="section-line"></div>
-
-        <p class="job-title">Python Developer / Team Lead <span class="date-range">April 2024 — Present</span></p>
-        <div class="company-location">Platform17 (volunteer-based), Ukraine</div>
-        <ul>
-            <li>Added Unit of Work to centralize DB logic and reduce duplicated code;</li>
-            <li>Applied DDD to separate business logic and make code more modular and easier to test;</li>
-            <li>Used CQRS to split read/write logic and speed up some API parts;</li>
-            <li>Achieved over 90% backend test coverage with Pytest, focusing on service and domain layers;</li>
-            <li>Designed features for booking, subscriptions, scheduling, and user roles;.</li>
-        </ul>
         
-        <p class="job-title">Design Engineer / Hardware Specialist <span class="date-range">Aug 2008 — Apr 2021</span></p>
-        <div class="company-location">LLC "Aquavital", LLC "SEA Elektrotekhnika", Freelance, Ukraine</div>
-        <ul>
-            <li>Created technical documentation, working drawings, and visual project presentations for infrastructure and electronics;</li>
-            <li>Handled hardware planning, installation, OS configuration, and system support for industrial and mining setups.</li>
-        </ul>
+        <div class="skills-grid">
+            <ul>
+                <li>Python</li>
+                <li>FastAPI / Django</li>
+                <li>SQLAlchemy / Pydantic</li>
+                <li>PostgreSQL / Redis</li>
+                <li>AsyncIO / Aiohttp</li>
+            </ul>
 
+            <ul>
+                <li>Docker / Docker Compose</li>
+                <li>Git / GitHub</li>
+                <li>Unit & Integration Testing</li>
+                <li>RESTful API design</li>
+                <li>DDD / CQRS</li>
+            </ul>
+
+            <ul>
+                <li>Linux</li>
+                <li>Team Leadership</li>
+                <li>Responsibility</li>
+                <li>Problem Solving</li>
+                <li>Decision Making</li>
+                
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <div class="section-line"></div>
+        <p><strong>IT School "GoIT"<span class="date-range">Feb 2023 - Feb 2024</span></strong><br>
+            Python Developer | <a href="https://revuka-oleksandr-resume.netlify.app/images/Certificate_GoIT.pdf"
+                target="_blank">Certificate GoIT</a><br>
+        </p>
+        <p><strong>IT Education Academy "ITEA"<span class="date-range">Sep 2022 - Jan 2023</span></strong><br>
+            Python Developer | <a href="https://revuka-oleksandr-resume.netlify.app/images/Certificate_ITEA.pdf"
+                target="_blank">Certificate ITEA</a><br>
+        </p>
+        <p><strong>National Technical University of Ukraine "Igor Sikorsky Kyiv
+        Polytechnic Institute"<span class="date-range">Sep 2002 - June 2008</span></strong><br>
+            Aviation and cosmonautics Design engineer<br>
+        </p>
     </div>
 
     <div class="section">
@@ -248,19 +257,15 @@
     
         <div class="skills-grid">
             <ul>
-                <li>Ukrainian — Native</li>
+                <li>Ukrainian: Native</li>
             </ul>
     
             <ul>
-                <li>Russian — Fluent</li>
-            </ul>
-    
-            <ul>
-                <li>English — Intermediate (B1)</li>
+                <li>English: Upper-Intermediate (B2)</li>
             </ul>
     
         </div>
-    </div>
+    </div>   
 
 </body>
 
